@@ -1,0 +1,27 @@
+CONMAN
+{
+background-color: #000000;
+width: 100%;
+}
+CONFERENCE
+{
+display: block;
+margin-bottom: 30pt;
+margin-left: 0;
+}
+SNO
+{
+color: #ffff00;
+font-size: 20pt;
+}
+CONNAME
+{
+color: #0000FF;
+font-size: 20pt;
+}
+PLACE,DATE
+{
+display: block;
+color: #ffffff;
+margin-left: 20pt;
+}

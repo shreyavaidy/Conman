@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="constyle.css"?>
+<CONMAN>
+	<CONFERENCE>
+		<SNO>1</SNO>
+		<CONNAME>ANVESH 2015 (Doctoral Research Conference in Management)</CONNAME>
+		<PLACE>Ahmedabad</PLACE>
+		<DATE>03-04-2015</DATE>
+	</CONFERENCE>
+	<CONFERENCE>
+		<SNO>2</SNO>
+		<CONNAME>Sustainable and Smart Cities 2015 (SSC-15)</CONNAME>
+		<PLACE>Surat</PLACE>
+		<DATE>10-04-2015</DATE>
+	</CONFERENCE>
+	<CONFERENCE>
+		<SNO>3</SNO>
+		<CONNAME>MANEGMA 2015: National Conference on Recent Advances in IT</CONNAME>
+		<PLACE>Mangalore</PLACE>
+		<DATE>23-04-2015</DATE>
+	</CONFERENCE>
+	<CONFERENCE>
+		<SNO>4</SNO>
+		<CONNAME>Women's Rights Convention</CONNAME>
+		<PLACE>New,Delhi</PLACE>
+		<DATE>02-05-2015</DATE>
+	</CONFERENCE>
+	<CONFERENCE>
+		<SNO>5</SNO>
+		<CONNAME>5th Edition of Global Pollution management Summit</CONNAME>
+		<PLACE>Bangalore</PLACE>
+		<DATE>31-05-2015</DATE>
+	</CONFERENCE>
+	<CONFERENCE>
+		<SNO>6</SNO>
+		<CONNAME>Artificial Intelligence Worshop</CONNAME>
+		<PLACE>Chennai</PLACE>
+		<DATE>06-06-2015</DATE>
+	</CONFERENCE>
+	<CONFERENCE>
+		<SNO>7</SNO>
+		<CONNAME>Genetics Engineernig Development Research</CONNAME>
+		<PLACE>Manali</PLACE>
+		<DATE>09-08-2015</DATE>
+	</CONFERENCE>
+	<CONFERENCE>
+		<SNO>8</SNO>
+		<CONNAME>Infanticide Prevention Meet</CONNAME>
+		<PLACE>Tuticorin</PLACE>
+		<DATE>26-08-2015</DATE>
+	</CONFERENCE>
+	<CONFERENCE>
+		<SNO>9</SNO>
+		<CONNAME>Second International Conference on VLSI Communication and Networks</CONNAME>
+		<PLACE>Alwar</PLACE>
+		<DATE>16-11-2015</DATE>
+	</CONFERENCE>
+</CONMAN>

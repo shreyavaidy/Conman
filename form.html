@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<title>About CONMAN</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript">
+function validate()
+{
+ 
+   if( document.myForm.Name.value == "" )
+   {
+     alert( "Please provide your name!" );
+     document.myForm.Name.focus() ;
+     return false;
+   }
+   if( document.myForm.EMail.value == "" )
+   {
+     alert( "Please provide your Email!" );
+     document.myForm.EMail.focus() ;
+     return false;
+   }
+   if( document.myForm.pwd1.value == "" ||
+           document.myForm.pwd1.value.length <6 )
+   {
+     alert( "Please provide a password of more than 6 characters" );
+     document.myForm.pwd1.focus() ;
+     return false;
+   }
+	 if( document.myForm.pwd1.value != document.myForm.pwd2.value )
+   {
+     alert( "Your passwords don't match!" );
+     document.myForm.pwd2.focus() ;
+     return false;
+   }
+   if( document.myForm.State.value == "-1" )
+   {
+     alert( "Please provide your state!" );
+     return false;
+   }
+   return( true );
+}
+</script>
+
+</head>
+<body bgcolor="black">
+<div id="wrap" style="background-color:#FFA500;">
+
+       <div class="header">
+       		<div class="logo"><a href="index.html"><img src="images/conlogo.jpg" height="80" width="150" alt="" title="" border="0" /></a></div>            
+       </div> 
+       
+       <div class="center_content">
+       	<div class="left_content">
+            <div class="crumb_nav">
+            <a href="index.html">HOME</a> 
+            </div>
+            <div class="title">VIEW</div>
+        
+            <div class="feat_prod_box_details">
+            <p class="details">
+           <form action="insert.php" name="myForm" onsubmit="return(validate());" method="post">
+
+
+
+<center>
+<h1> Register here </h1><br><br><br> <br><br><br>
+
+<table cellspacing="2" cellpadding="2">
+ <tr>
+   <td align="right">Name</td>
+   <td><input type="text" name="Name" /></td>
+ </tr>
+ <tr>
+   <td align="right">EMail</td>
+   <td><input type="text" name="EMail" /></td>
+ </tr>
+ <tr>
+   <td align="right">Password</td>
+   <td><input type="password" name="pwd1" /></td>
+ </tr>
+ <tr>
+   <td align="right">Confirm Password</td>
+   <td><input type="password" name="pwd2" /></td>
+ </tr>
+
+ <tr>
+ <td align="right">State</td>
+ <td>
+ <select name="State">
+   <option value="-1" selected>[choose yours]</option>
+   <option value="1">Tamil Nadu</option>
+   <option value="2">Assam</option>
+   <option value="3">Jammu</option>
+ </select>
+ </td>
+ </tr>
+
+ </table><br><br><br>
+<input type="submit" action="insert.php" value="Submit" /></center>
+ </form>
+
+
+
+
+            </p>
+            
+            
+            </div>	
+            
+              
+
+            
+
+            
+        <div class="clear"></div>
+        </div><!--end of left content-->
+        
+        <div class="right_content">
+        
+                	
+            
+                
+              
+             
+                                 
+             
+             
+        
+        </div><!--end of right content-->
+        
+        
+       
+       
+       <div class="clear"></div>
+       </div><!--end of center content-->
+       
+              
+       <div class="footer">
+       </div>
+        
+       
+       
+        </div>
+        
+       
+       
+    
+
+
+
+</body>
+</html>
